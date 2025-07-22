@@ -1,3 +1,4 @@
-export interface TheProps {
-	eliud: string;
+export interface CardProps {
+	title: string;
+	content: string;
 }
