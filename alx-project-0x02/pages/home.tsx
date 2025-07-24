@@ -1,5 +1,6 @@
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 import { CardProps } from "@/interfaces";
 import React, { useState } from "react";
 
@@ -17,6 +18,7 @@ const Home = () => {
 
 	return (
 		<div className="font-serif">
+			<Header />
 			<h1>Home Page</h1>
 			<button
 				onClick={() => setModalOpen(true)}
