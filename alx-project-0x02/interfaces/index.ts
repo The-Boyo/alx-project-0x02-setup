@@ -4,6 +4,6 @@ export interface CardProps {
 }
 
 export interface PostModalFunctions {
-	onSubmit: () => CardProps;
+	onSubmit: (post: CardProps) => void;
 	onClose: () => void;
 }

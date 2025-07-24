@@ -5,8 +5,8 @@ import { CardProps } from "@/interfaces";
 const Card: React.FC<CardProps> = (props) => {
 	return (
 		<div className="card">
-			<h2>{props.title}</h2>
-			<p>{props.content}</p>
+			<h2 className="font-bold">{props.title}</h2>
+			<p className="text-sm">{props.content}</p>
 		</div>
 	);
 };
