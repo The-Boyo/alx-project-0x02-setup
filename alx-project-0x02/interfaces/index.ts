@@ -10,5 +10,5 @@ export interface PostModalFunctions {
 
 export interface ButtonProps {
 	size: "small" | "medium" | "large";
-	shape: "sm" | "md" | "full";
+	shape: "rounded-sm" | "rounded-md" | "rounded-full";
 }
