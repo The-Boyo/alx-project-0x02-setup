@@ -16,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({ size, shape }) => {
 	};
 
 	return (
-		<button className={`${renderSize(size)} rounded-${shape} text-white m-3`}>
+		<button className={`${renderSize(size)} ${shape} text-white m-3`}>
 			{size}
 		</button>
 	);

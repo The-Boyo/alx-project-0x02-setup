@@ -6,9 +6,9 @@ const About = () => {
 		<div className="p-2">
 			<h1>About Page</h1>
 			<div className="flex flex-col">
-				<Button size="small" shape="sm" />
-				<Button size="medium" shape="md" />
-				<Button size="large" shape="full" />
+				<Button size="small" shape="rounded-sm" />
+				<Button size="medium" shape="rounded-md" />
+				<Button size="large" shape="rounded-full" />
 			</div>
 		</div>
 	);
