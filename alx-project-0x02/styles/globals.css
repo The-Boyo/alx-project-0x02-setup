@@ -19,9 +19,15 @@
 	}
 }
 
+@layer base {
+	button {
+		cursor: pointer;
+	}
+}
+
 @layer components {
 	.card {
-		@apply shadow-blue-800 shadow-md p-2 rounded-md;
+		@apply shadow-blue-800 shadow-md p-2 rounded-md mb-5;
 	}
 }
 
