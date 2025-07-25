@@ -12,3 +12,10 @@ export interface ButtonProps {
 	size: "small" | "medium" | "large";
 	shape: "rounded-sm" | "rounded-md" | "rounded-full";
 }
+
+export interface PostProps {
+	userId: number;
+	title: string;
+	content: string;
+	id: number;
+}
