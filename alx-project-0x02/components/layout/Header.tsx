@@ -13,6 +13,9 @@ const Header = () => {
 			<p>
 				<Link href={`/posts`}>Posts</Link>
 			</p>
+			<p>
+				<Link href={`/users`}>Users</Link>
+			</p>
 		</header>
 	);
 };
