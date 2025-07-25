@@ -37,3 +37,15 @@ body {
 	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.personal > h2,
+.address > h2,
+.company > h2 {
+	font-weight: bold;
+}
+
+.personal > p > span,
+.address > p > span,
+.company > p > span {
+	opacity: 0.7;
+}
